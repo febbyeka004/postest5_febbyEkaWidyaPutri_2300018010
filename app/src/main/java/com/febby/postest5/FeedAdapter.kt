@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.febby.postest5.Post
 
 class FeedAdapter(private val posts: List<Post>) :
     RecyclerView.Adapter<FeedAdapter.FeedViewHolder>() {
